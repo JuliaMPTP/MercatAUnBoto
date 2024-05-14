@@ -1,13 +1,11 @@
 import os
-from shutil import rmtree
 from cleanVideos import CleanVideos
 from cleanVideoImages import cleanVideoImages
 from RunAPI import pentoprint
 from convertCSV import convertCSV
 
 #Change the "API_Key" to yours
-"1ebe80c4a1mshca1e9f5e61258a1p165b4ejsne2add8a95969"
-API_Key= "d040dffd4amsh50eb199d7a58c92p1a7138jsn2ece85c95540"
+API_Key= "API_Key"
 
 #Save the values returned by the API
 vals=[]
